@@ -3,7 +3,7 @@ import Task from './task.jsx';
 import './app.css';
 
 function App() {
-  const taskmasterBackend = `http://taskmaster-env.mj7bpwmyer.us-east-2.elasticbeanstalk.com/api`;
+  const taskmasterBackend = `http://taskmaster-env.r8tifpw9yy.us-west-2.elasticbeanstalk.com/api`;
 
   const [tasks, setTasks] = useState([]);
 
