@@ -7,6 +7,7 @@ function Task(props){
       <p>Description: {props.data.description}</p>
       <p id={props.data.id}>Status: {props.data.status} </p>
       {props.data.assignee ? <p>Assigned To: {props.data.assignee}</p> : null}
+      <img src={`resized-${props.data.status}`} alt="resized-pic"></img>
       <img src={props.data.pic} alt="some pic"></img>
       <form action={`${props.taskmasterBackend}/tasks/${props.data.id}/images`} method="post" enctype="multipart/form-data">
         <label>
