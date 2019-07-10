@@ -1,3 +1,10 @@
+# Taskmaster
+
+This project is a task list that allows you to upload pictures for said tasks. 
+
+Tasks are saved into DynamoDB.
+Images will be uploaded to S3 and lambda will resize those images for you(50x50).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
